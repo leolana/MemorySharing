@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MemorySharing", "src\MemorySharing\MemorySharing.xproj", "{893B9961-C9DC-47A8-87E6-B5068C58C4B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F3C742B3-EBF6-4633-ABA3-DA2CE1C49C2D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MemorySharingUnitTests", "MemorySharingUnitTests1\MemorySharingUnitTests.xproj", "{72BA49FB-D95F-4C86-B18B-F78AA9320087}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{893B9961-C9DC-47A8-87E6-B5068C58C4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893B9961-C9DC-47A8-87E6-B5068C58C4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893B9961-C9DC-47A8-87E6-B5068C58C4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BA49FB-D95F-4C86-B18B-F78AA9320087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BA49FB-D95F-4C86-B18B-F78AA9320087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BA49FB-D95F-4C86-B18B-F78AA9320087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BA49FB-D95F-4C86-B18B-F78AA9320087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{893B9961-C9DC-47A8-87E6-B5068C58C4B2} = {D9096EE6-2076-47E7-83C0-3AA21D8F275A}
+		{72BA49FB-D95F-4C86-B18B-F78AA9320087} = {F3C742B3-EBF6-4633-ABA3-DA2CE1C49C2D}
 	EndGlobalSection
 EndGlobal
